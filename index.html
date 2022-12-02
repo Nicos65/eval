@@ -8,13 +8,26 @@
 <body>
 	<div>
 		<h1>ID</h1>
-		<input type="text" placeholder="nom" name="name" id="name">
-		<input type="text" placeholder="prenom" name="firstname" id="firstname">
-		<input type="text" placeholder="age" name="age" id="age">
-		<button onclick="affiche()">Valider</button>
+		<div>
+			<input type="text" placeholder="nom" name="name" id="name">
+			<button id="btn3">Tri Nom</button>
+		</div>
+		<div>
+			<input type="text" placeholder="prenom" name="firstname" id="firstname">
+			<button id="btn4">Tri Prenom</button>
+		</div>
+		<div>
+			<input type="text" placeholder="age" name="age" id="age">
+			<button id="btn5">Tri Age</button>
+		</div>
+		<div class="btn">
+			<button onclick="affiche()" id="btn1">Valider</button>
+			<button id="btn2">Supprimer tout</button>
+		</div>
 	</div>
-	<button onclick="supprimer()">Supprimer tout</button>
-	<button onclick="trier()">Trier</button>
+
+
+
 	<script src="main.js"></script>
 </body>
 
